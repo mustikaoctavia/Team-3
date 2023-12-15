@@ -1,7 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .banner{
-    background: url(kuas_bg.jpg) no-repeat center center;
-    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     padding-top: 20%;
     padding-bottom: 20%;
-    color : fff;
+    color : ffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(banner.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
+
